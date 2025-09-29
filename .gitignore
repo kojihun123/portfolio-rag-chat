@@ -1,6 +1,7 @@
 backend/.venv/
 backend/__pycache__/
 backend/.env
+backend/pgdata/
 web/node_modules/
 web/.next/
 .DS_Store
