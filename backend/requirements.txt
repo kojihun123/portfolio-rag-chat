@@ -1,0 +1,18 @@
+# FastAPI & 서버
+fastapi
+uvicorn[standard]
+
+# DB
+SQLAlchemy>=2.0
+asyncpg
+pgvector
+
+# 설정 & 스키마
+pydantic>=2
+pydantic-settings
+
+# HTTP client (OpenAI API 호출)
+httpx
+
+# Embeddings
+sentence-transformers
