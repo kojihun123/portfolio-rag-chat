@@ -14,8 +14,9 @@ FastAPI, SQLAlchemy 2, asyncpg, PostgreSQL(pgvector), sentence-transformers, Doc
 - DB 실행: `cd backend && docker compose up -d`
 - 가상환경: `python -m venv .venv` -> `.\\.venv\\Scripts\\Activate.ps1`
 - 의존성 설치: `pip install -r requirements.txt`
-- 서버 실행: `uvicorn app.main:app --reload --host 0.0.0.0 --port 8000`
+- 서버 실행: `uvicorn app.main:app --reload --host 127.0.0.1 --port 8000`
 - (선택) 프론트: `cd ..\\web && npm install && npm run dev`
+- vscode python interfreter 설정하기 !!!! (중요!!!!)
 
 ## .env 예시 (backend/.env)
 ```env

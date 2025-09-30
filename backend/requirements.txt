@@ -13,6 +13,7 @@ pydantic-settings
 
 # HTTP client (OpenAI API 호출)
 httpx
+openai>=1.44.0,<2
 
 # Embeddings
 sentence-transformers
