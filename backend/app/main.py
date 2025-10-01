@@ -1,12 +1,12 @@
 from fastapi import FastAPI
 from app.db import Base, engine
-from app.models import Document, ChatSession, Message
 from app.config import settings
-from app.routers import documents
+from app.routers import documents, chat
 
 app = FastAPI(title=settings.app_name)
 
 app.include_router(documents.router)
+app.include_router(chat.router)
 
 @app.on_event("startup")
 async def startup():
